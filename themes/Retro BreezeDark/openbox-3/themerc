@@ -1,0 +1,127 @@
+#=================================================
+# This theme was generated from the Wine-registry,
+# and then converted in to a theme by a R2T2-robot
+# : R2T2 = Registry to Theme - two WM-formats)...
+#=================================================
+
+!! Window layout:
+
+border.width: 1
+padding.height: 2
+padding.width: 3
+#----------------------------------------
+# handle.width replaces client.padding.height
+#----------------------------------------
+window.handle.width: 0
+window.client.padding.width: 2
+window.client.padding.height: 2
+#window.title.height: 22
+#window.font.height: 10
+# Wine - FontWeight: Regular
+# Wine - FontName: System Regular
+# ZeTeShMa: ZeroTextShadowMargin) = Title margin:
+window.*.font: shadow=y:shadowtint=0:shadowoffset=-4
+window.*.text.justify: left
+window.active.title.bg: raised solid
+window.active.label.bg: parentrelative
+window.inactive.title.bg: raised solid
+window.inactive.label.bg: parentrelative
+window.active.handle.bg: raised solid
+window.inactive.handle.bg: raised solid
+window.active.grip.bg: raised solid
+window.inactive.grip.bg: raised solid
+
+#=================================================
+!! Window colors:
+
+window.active.border.color: #31302d
+window.inactive.border.color: #31302d
+window.active.label.text.color: #FFFFFF
+window.inactive.label.text.color: #868b90
+window.active.title.*.color: #31363b
+window.active.label.*.color: #31363b
+window.active.title.*.colorTo: #A6CAF0
+window.active.label.*.colorTo: #31363b
+window.inactive.title.*.color: #31302d
+window.inactive.label.*.color: #31302d
+window.inactive.title.*.colorTo: #C0C0C0
+window.inactive.label.*.colorTo: #31302d
+#----------------------------------------
+# Active framecolor:
+#----------------------------------------
+window.active.title.bg.border.color: #868b90
+window.active.title.separator.color: #868b90
+window.active.client.color: #868b90
+window.active.handle.*.color: #868b90
+window.active.grip.*.color: #868b90
+#----------------------------------------
+# Inactive framecolor:
+#----------------------------------------
+window.inactive.title.bg.border.color: #868b90
+window.inactive.title.separator.color: #868b90
+window.inactive.client.color: #868b90
+window.inactive.handle.*.color: #868b90
+window.inactive.grip.*.color: #868b90
+
+#=================================================
+!!Button layout:
+
+*.button.*.shadow: 255
+*.button.*.highlight: 255
+*.button.*.bg: Gradient Diagonal Raised
+*.button.*.hover.bg: Solid Raised
+*.button.*.pressed.bg: Gradiant Diagonal Sunken
+
+#==========================================
+!!Button colors:
+
+*.image.color: Black
+*.button.*.bg.color: Gainsboro
+*.button.*.bg.colorTo: DarkGray
+*.button.*.hover.bg.color: Gray
+*.button.*.pressed.bg.color: DarkGray
+*.button.*.pressed.bg.colorTo: #EEEEEE
+*.button.*.disabled.*.image.color: LightGray
+
+#=================================================
+!! Menu section:
+
+#menu.title.height: 19
+#menu.item.height: 19
+#menu.font.height: 9
+# Wine - FontWeight: Regular
+# Wine - FontName: Tahoma
+menu.border.width: 1
+menu.*.font: shadow=y:shadowtint=0:shadowoffset=-6
+menu.title.text.justify: center
+menu.separator.width: 1
+menu.border.width: 1
+menu.title.bg: raised solid
+menu.items.bg: raised solid
+menu.items.active.bg: flat solid
+menu.*.bg.shadow: 148
+
+menu.border.color: #31302d
+menu.border.color: #868b90
+menu.items.bg.color: #868b90
+menu.title.bg.color: #868b90
+menu.*.text.color: #000000
+menu.*.image.color: #000000
+menu.*.active.bg.color: #31363b
+menu.*.active.text.color: #FFFFFF
+menu.*.disabled.text.color: #31302d
+menu.separator.color: #31302d
+
+#=================================================
+!! Dialog section:
+
+osd.bg : sunken solid
+osd.*.button.*.bg: raised solid
+osd.client.padding.height: 3
+
+osd.*.bg.color: #868b90
+osd.*.text.color: #000000
+osd.*.button.bg.color: #DCDCDC
+
+
+

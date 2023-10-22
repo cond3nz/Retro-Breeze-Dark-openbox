@@ -1,0 +1,1 @@
+Retro LXQT dark theme
